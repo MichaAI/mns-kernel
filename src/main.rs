@@ -3,7 +3,7 @@
 
 use core::panic::PanicInfo;
 
-const HELLO: &[u8] = b"Hello World";
+const HELLO: &[u8] = b"Hello Rust Kernel";
 
 #[unsafe(no_mangle)]
 pub extern "C" fn _start() -> ! {
